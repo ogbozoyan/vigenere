@@ -77,8 +77,7 @@ def key_fix(key):
         elif(text[i] == ' '):
             k.append(space) # if we got space in text we fill key with space's and don't interate our key
     k = "".join(k)#transofmation list to str
-    k = k.strip('0')#cleaning our string from dirt
-    return k
+    return k.strip('0')
 print("Made by @ogbozoyan_13 - inst ")
 print("This's Vigenère cipher works on 2 languages")
 print("Choose your language : eng - e , rus - r ")
